@@ -1,0 +1,535 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="LathSMP - A Minecraft SMP made for adventure, economy, competition and chaos.">
+
+  <title>LathSMP — Minecraft SMP</title>
+
+  <link rel="icon" href="icon.png">
+
+  <link rel="stylesheet"
+        href="css/lathsmp.css">
+</head>
+
+<body>
+
+<!-- =========================
+     NAVIGATION
+     ========================= -->
+
+<header class="navbar">
+
+  <div class="nav-container">
+
+    <a href="#home" class="brand">
+      <img src="icon.png" alt="LathSMP Logo">
+      <span>Lath<span>SMP</span></span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <a href="#play" class="nav-play">
+      PLAY NOW
+    </a>
+
+  </div>
+
+</header>
+
+
+<!-- =========================
+     HERO
+     ========================= -->
+
+<main>
+
+  <section id="home" class="hero">
+
+    <div class="hero-background"></div>
+
+    <div class="hero-content">
+
+      <div class="hero-badge">
+        <span class="status-dot"></span>
+        LATHSMP IS ONLINE
+      </div>
+
+      <h1>
+        YOUR WORLD.
+        <br>
+        <span>YOUR STORY.</span>
+      </h1>
+
+      <p class="hero-description">
+        Welcome to LathSMP — a Minecraft survival server
+        built around freedom, competition, economy and
+        having fun with your friends.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="#play" class="button button-primary">
+          PLAY LATHSMP
+          <span>→</span>
+        </a>
+
+        <a href="#features" class="button button-secondary">
+          EXPLORE FEATURES
+        </a>
+
+      </div>
+
+      <div class="hero-ip">
+
+            <span class="ip-label">
+                SERVER IP
+            </span>
+
+        <button
+          class="ip-copy"
+          id="copyIp"
+          type="button">
+
+                <span id="serverIp">
+                    play.lathsmp.net
+                </span>
+
+          <span class="copy-icon">
+                    ⧉
+                </span>
+
+        </button>
+
+        <span
+          class="copy-message"
+          id="copyMessage">
+                Click to copy
+            </span>
+
+      </div>
+
+    </div>
+
+    <div class="scroll-indicator">
+      <span>SCROLL TO EXPLORE</span>
+      <div class="scroll-line"></div>
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       SERVER STATUS
+       ========================= -->
+
+  <section class="status-section">
+
+    <div class="section-container">
+
+      <div class="server-status">
+
+        <div class="status-left">
+
+          <div class="large-status-dot"></div>
+
+          <div>
+                    <span class="status-title">
+                        SERVER STATUS
+                    </span>
+
+            <strong id="serverStatus">
+              ONLINE
+            </strong>
+          </div>
+
+        </div>
+
+        <div class="status-info">
+
+          <div class="status-stat">
+            <span>PLAYERS</span>
+            <strong id="playerCount">
+              2 / 20
+            </strong>
+          </div>
+
+          <div class="status-divider"></div>
+
+          <div class="status-stat">
+            <span>VERSION</span>
+            <strong>1.21+</strong>
+          </div>
+
+          <div class="status-divider"></div>
+
+          <div class="status-stat">
+            <span>JAVA + BEDROCK</span>
+            <strong>✓</strong>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       FEATURES
+       ========================= -->
+
+  <section id="features" class="section features-section">
+
+    <div class="section-container">
+
+      <div class="section-heading">
+
+            <span class="section-label">
+                WHAT WE OFFER
+            </span>
+
+        <h2>
+          BUILT FOR
+          <span>ADVENTURE.</span>
+        </h2>
+
+        <p>
+          LathSMP isn't just another survival server.
+          Everything is designed to give players more
+          freedom while keeping the world interesting.
+        </p>
+
+      </div>
+
+
+      <div class="features-grid">
+
+        <article class="feature-card">
+
+          <div class="feature-number">
+            01
+          </div>
+
+          <div class="feature-icon">
+            ⚔
+          </div>
+
+          <h3>
+            SURVIVAL
+          </h3>
+
+          <p>
+            Explore a large world, build your base,
+            gather resources and survive whatever
+            the world throws at you.
+          </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+          <div class="feature-number">
+            02
+          </div>
+
+          <div class="feature-icon">
+            $
+          </div>
+
+          <h3>
+            ECONOMY
+          </h3>
+
+          <p>
+            Earn money, trade with players and build
+            your own wealth through the server economy.
+          </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+          <div class="feature-number">
+            03
+          </div>
+
+          <div class="feature-icon">
+            ◈
+          </div>
+
+          <h3>
+            AUCTION HOUSE
+          </h3>
+
+          <p>
+            Buy and sell items through the player-driven
+            Auction House and find rare items from other players.
+          </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+          <div class="feature-number">
+            04
+          </div>
+
+          <div class="feature-icon">
+            ✦
+          </div>
+
+          <h3>
+            RTP
+          </h3>
+
+          <p>
+            Want to explore somewhere new?
+            Randomly teleport into the wilderness and
+            discover your next location.
+          </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+          <div class="feature-number">
+            05
+          </div>
+
+          <div class="feature-icon">
+            ⚡
+          </div>
+
+          <h3>
+            TPA
+          </h3>
+
+          <p>
+            Meet up with friends without spending
+            hours travelling across the world.
+          </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+          <div class="feature-number">
+            06
+          </div>
+
+          <div class="feature-icon">
+            ☠
+          </div>
+
+          <h3>
+            NO CLAIMS
+          </h3>
+
+          <p>
+            Your builds aren't automatically protected.
+            Trust your friends, protect your base and
+            think twice about who you trust.
+          </p>
+
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       ABOUT
+       ========================= -->
+
+  <section id="about" class="section about-section">
+
+    <div class="section-container about-grid">
+
+      <div class="about-text">
+
+            <span class="section-label">
+                ABOUT LATHSMP
+            </span>
+
+        <h2>
+          NOT JUST
+          <span>ANOTHER SMP.</span>
+        </h2>
+
+        <p>
+          LathSMP started as a simple Minecraft server
+          project and grew into something much bigger.
+        </p>
+
+        <p>
+          The goal is simple: create a world where players
+          can make their own stories instead of being forced
+          into a specific playstyle.
+        </p>
+
+        <p>
+          Build. Trade. Fight. Explore.
+          Make friends. Make enemies.
+          And most importantly — make your own story.
+        </p>
+
+      </div>
+
+
+      <div class="about-panel">
+
+        <div class="panel-line"></div>
+
+        <span>THE LATHSMP PHILOSOPHY</span>
+
+        <h3>
+          FREEDOM
+          <br>
+          OVER
+          <br>
+          RESTRICTIONS.
+        </h3>
+
+        <div class="panel-line"></div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================
+       PLAY
+       ========================= -->
+
+  <section id="play" class="play-section">
+
+    <div class="play-overlay"></div>
+
+    <div class="play-content">
+
+        <span class="section-label">
+            READY?
+        </span>
+
+      <h2>
+        JOIN THE
+        <span>WORLD.</span>
+      </h2>
+
+      <p>
+        Grab Minecraft and start your LathSMP adventure.
+      </p>
+
+      <div class="connect-box">
+
+            <span>
+                SERVER ADDRESS
+            </span>
+
+        <button
+          id="copyIpLarge"
+          type="button">
+
+          <strong>
+            play.lathsmp.net
+          </strong>
+
+          <small>
+            CLICK TO COPY
+          </small>
+
+        </button>
+
+      </div>
+
+      <div class="edition-badges">
+
+            <span>
+                JAVA EDITION
+            </span>
+
+        <span>
+                BEDROCK
+            </span>
+
+        <span>
+                CROSSPLAY
+            </span>
+
+      </div>
+
+    </div>
+
+  </section>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+     ========================= -->
+
+<footer>
+
+  <div class="footer-container">
+
+    <div class="footer-brand">
+
+      <img src="icon.png"
+           alt="LathSMP Logo">
+
+      <div>
+        <strong>LathSMP</strong>
+        <span>Minecraft Survival Server</span>
+      </div>
+
+    </div>
+
+    <div class="footer-links">
+
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#play">Play</a>
+
+    </div>
+
+    <div class="footer-copy">
+
+      © 2026 LathSMP
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
+```
