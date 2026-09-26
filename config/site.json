@@ -1,0 +1,326 @@
+
+{
+"site": {
+"name": "LathSMP",
+"domain": "lathsmp.me",
+"minecraftVersion": "26.3",
+"platform": "Java + Bedrock",
+"serverIp": "lathsmp.me"
+},
+
+"navigation": [
+{
+"name": "Home",
+"url": "index.html"
+},
+{
+"name": "Server",
+"url": "server.html"
+},
+{
+"name": "Updates",
+"url": "updates.html"
+},
+{
+"name": "YouTube",
+"url": "youtube.html"
+},
+{
+"name": "Socials",
+"url": "socials.html"
+},
+{
+"name": "About",
+"url": "about.html"
+}
+],
+
+"home": {
+"title": "LathSMP",
+
+"description": "A Minecraft survival server for friends and the community.",
+
+"description2": "Java and Bedrock players can play together on the same server.",
+
+"serverInfoLink": "Join the server",
+
+"serverSectionTitle": "Server",
+
+"serverStatusTitle": "Server status",
+"serverStatusChecking": "Checking...",
+
+"playersLabel": "Players:",
+"playersLoading": "Loading...",
+
+"versionLabel": "Version:",
+"platformLabel": "Platform:",
+
+"serverIpLabel": "Server IP",
+
+"copyButton": "Copy",
+"copyMessage": "Click the IP to copy it.",
+
+"serverInfoLinkText": "More server information →",
+
+"featuresTitle": "What is on LathSMP?",
+
+"features": [
+"Economy",
+"Auction House",
+"Random Teleport",
+"Teleport requests",
+"Java + Bedrock crossplay",
+"No land claims"
+],
+
+"featuresLink": "See all server features →",
+
+"latestUpdateTitle": "Latest update",
+
+"latestUpdateDate": "September 2026",
+"latestUpdateTitleText": "The LathSMP website is live",
+"latestUpdateDescription": "The new LathSMP website is now online. More server information, updates and other things will be added here over time.",
+"latestUpdateImage": "img/updates/website.jpg",
+"latestUpdateLink": "See all updates →",
+
+"communityTitle": "Community",
+"communityDescription": "LathSMP is more than just the Minecraft server. Join the community or follow the videos and updates.",
+
+"discordTitle": "Discord",
+"discordDescription": "Join the LathSMP community, talk with other members, see announcements and take part in events.",
+"discordButton": "Join Discord →",
+"discordUrl": "https://discord.gg/ZcQfdXr5JE",
+"discordImage": "img/social/discord.png",
+
+"youtubeTitle": "YouTube",
+"youtubeDescription": "Watch Lath_g7y's Minecraft videos, LathSMP development, funny moments and more.",
+"youtubeButton": "Visit YouTube →",
+"youtubeUrl": "https://www.youtube.com/@lath_g7y",
+"youtubeImage": "img/social/youtube.png",
+
+"socialsTitle": "More socials",
+"socialsDescription": "Find Lath_g7y on TikTok, Medal, GitHub and other platforms.",
+"socialsLink": "View all socials →",
+
+"joinTitle": "Want to join?",
+"joinDescription": "Add this server in Minecraft using:",
+"joinVersion": "Minecraft 26.3 · Java + Bedrock",
+"joinCopyMessage": "Click the address to copy it."
+},
+
+"server": {
+"title": "The Server",
+
+"description": "A custom Minecraft survival server built for friends and the community.",
+
+"serverInfoTitle": "Server information",
+"serverStatusChecking": "Checking...",
+"playersLabel": "Players:",
+"playersLoading": "Loading...",
+"versionLabel": "Version:",
+"platformLabel": "Platform:",
+"serverIpLabel": "Server IP",
+"copyButton": "Copy",
+"copyMessage": "Click the IP to copy it.",
+
+"howToJoinTitle": "How to join",
+
+"howToJoinText": "Add the server to Minecraft using the address below.",
+
+"featuresTitle": "Server features",
+
+"features": [
+"Custom economy",
+"Custom Auction House",
+"Random Teleport",
+"Teleport requests",
+"Java + Bedrock crossplay",
+"World borders",
+"Combat system",
+"No land claims"
+],
+
+"uniqueTitle": "LathSMP systems",
+
+"uniqueFeatures": [
+{
+"title": "Player Settings",
+"description": "Custom player settings for things such as mob spawning, phantoms and teleport preferences.",
+"status": "In development"
+},
+{
+"title": "Custom Auction House",
+"description": "A custom Auction House with features built specifically for LathSMP.",
+"status": "Available"
+},
+{
+"title": "Smart RTP",
+"description": "Random teleportation with separate Overworld, Nether and End systems.",
+"status": "Available"
+},
+{
+"title": "Player Statistics",
+"description": "Player statistics and leaderboards for things such as playtime, kills and other server activity.",
+"status": "Planned"
+}
+],
+
+"noClaimsTitle": "No land claims",
+
+"noClaimsText": "LathSMP does not use traditional land-claim protection. Players have to think about where and how they build and protect their stuff.",
+
+"joinTitle": "Want to join?",
+"joinDescription": "Add this server in Minecraft using:",
+"joinVersion": "Minecraft 26.3 · Java + Bedrock",
+"joinCopyMessage": "Click the address to copy it."
+},
+
+"updates": {
+"title": "Updates",
+
+"description": "News, changes and new things added to LathSMP.",
+
+"moreTitle": "More updates",
+
+"moreText": "More LathSMP updates will be added here as development continues.",
+
+"posts": [
+{
+"date": "September 30, 2026",
+"title": "The LathSMP website is live",
+"description": "The new LathSMP website is now online. More server information, updates and other things will be added here over time.",
+"image": "img/updates/website.gif"
+},
+{
+"date": "September 2026",
+"title": "Custom Auction House added",
+"description": "LathSMP now has a custom Auction House with several custom features.",
+"image": "img/updates/auction-house.jpg"
+},
+{
+"date": "September 2026",
+"title": "Java and Bedrock crossplay",
+"description": "Java and Bedrock players can now play together on LathSMP.",
+"image": "img/updates/crossplay.png"
+}
+]
+},
+
+"youtube": {
+"title": "YouTube",
+
+"description": "Videos, Minecraft content and other things from Lath_g7y.",
+
+"channelName": "Lath_g7y",
+"channelUrl": "https://www.youtube.com/@lath_g7y",
+
+"channelButton": "Visit YouTube channel",
+
+"contentTitle": "Content",
+
+"content": [
+"LathSMP development",
+"Minecraft videos",
+"Server updates",
+"Funny moments",
+"Other gaming content"
+],
+
+"futureTitle": "More to come",
+
+"futureText": "More LathSMP and Minecraft content will be added over time."
+},
+
+"socials": {
+"title": "Socials",
+
+"description": "Find LathSMP and Lath_g7y on the different platforms.",
+
+"findTitle": "Find me online",
+
+"serverTitle": "LathSMP",
+
+"serverDescription": "LathSMP is also available through the Minecraft server itself.",
+
+"serverAddressLabel": "Server address",
+
+"serverVersion": "Minecraft 26.3 · Java + Bedrock",
+
+"moreTitle": "More platforms",
+
+"moreText": "More platforms and links may be added here in the future.",
+
+"links": [
+{
+"name": "Discord",
+"description": "Join the lath_g7y community and talk with other members.",
+"url": "https://discord.gg/ZcQfdXr5JE",
+"image": "img/social/discord.png"
+},
+{
+"name": "YouTube",
+"description": "Minecraft, war thunder and other content.",
+"url": "https://www.youtube.com/@lath_g7y",
+"image": "img/social/youtube.png"
+},
+{
+"name": "TikTok",
+"description": "Short videos and clips from us.",
+"url": "https://www.tiktok.com/@lath_g7y",
+"image": "img/social/tiktok.png"
+},
+{
+"name": "Medal",
+"description": "Gaming clips and other recorded moments.",
+"url": "https://medal.tv/u/lath_g7y",
+"image": "img/social/medal.png"
+}
+]
+},
+
+"about": {
+"title": "About LathSMP",
+
+"description": "LathSMP is a custom made Minecraft server made by me and my twin for my friends and community :D",
+
+"whyTitle": "Why LathSMP?",
+
+"whyText": "The goal of LathSMP is to build a Minecraft server that truly feels like LathSMP. LathSMP will have systems that belong to LathSMP rather, than just using a collection of default plugins.",
+
+"systemsTitle": "Current systems",
+
+"systems": [
+"Custom economy",
+"Custom Auction House",
+"Smart RTP",
+"Teleport requests",
+"Combat system",
+"Java + Bedrock crossplay"
+],
+
+"futureTitle": "Future systems",
+
+"future": [
+  "Fixing stuff to add bugs later /:",
+  "More pvp stuff",
+"Player Settings",
+"Player Statistics",
+"Leaderboards",
+"Playtime tracking",
+"More Auction House features",
+"More custom server systems"
+],
+
+"creatorTitle": "The creator",
+
+"creatorText": "LathSMP is made and developed by Lath_g7y.",
+
+"youtubeLink": "https://www.youtube.com/@lath_g7y",
+"youtubeButton": "Visit YouTube"
+},
+
+"footer": {
+"copyright": "LathSMP © 2026",
+"domain": "lathsmp.me"
+}
+}

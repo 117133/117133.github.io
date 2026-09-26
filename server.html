@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>LathSMP | Server</title>
+
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="css/lathsmp.css">
+</head>
+
+<body data-page="server">
+
+<header>
+
+  <div class="container header-content">
+
+    <a href="index.html" class="logo">
+
+      <img
+        src="icon.png"
+        alt="LathSMP">
+
+      <span>LathSMP</span>
+
+    </a>
+
+    <nav>
+      <!-- Navigation is loaded from site.json -->
+    </nav>
+
+  </div>
+
+</header>
+
+
+<main>
+
+  <div class="container">
+
+
+    <!-- INTRO -->
+
+    <section class="welcome">
+
+      <h1 id="serverTitle">
+        The Server
+      </h1>
+
+      <p id="serverDescription">
+        Loading...
+      </p>
+
+    </section>
+
+
+    <!-- SERVER INFORMATION -->
+
+    <section>
+
+      <h2>
+        Server information
+      </h2>
+
+      <div class="server-info">
+
+
+        <div class="status">
+
+          <span class="status-dot"></span>
+
+          <strong id="serverStatus">
+            Checking...
+          </strong>
+
+        </div>
+
+
+        <p>
+
+          <strong id="serverPlayersLabel">
+            Players:
+          </strong>
+
+          <span id="serverPlayers">
+            Loading...
+          </span>
+
+        </p>
+
+
+        <p>
+
+          <strong id="serverVersionLabel">
+            Version:
+          </strong>
+
+          <span id="serverVersion">
+            -
+          </span>
+
+        </p>
+
+
+        <p>
+
+          <strong id="serverPlatformLabel">
+            Platform:
+          </strong>
+
+          <span id="serverPlatform">
+            -
+          </span>
+
+        </p>
+
+
+        <div class="server-ip">
+
+          <strong id="serverIpLabel">
+            Server IP
+          </strong>
+
+
+          <button
+            type="button"
+            data-copy-ip>
+
+            <span id="serverIp">
+              lathsmp.me
+            </span>
+
+            <span id="serverCopyButton">
+              Copy
+            </span>
+
+          </button>
+
+
+          <small
+            id="serverCopyMessage"
+            class="copy-message">
+
+            Click the IP to copy it.
+
+          </small>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- HOW TO JOIN -->
+
+    <section>
+
+      <h2 id="serverHowToJoinTitle">
+        How to join
+      </h2>
+
+      <p id="serverHowToJoinText">
+        Add the server to Minecraft using the address below.
+      </p>
+
+
+      <button
+        id="serverLargeIp"
+        class="large-ip"
+        type="button"
+        data-copy-ip>
+
+        lathsmp.me
+
+      </button>
+
+
+      <p class="small-text copy-message">
+        Click the address to copy it.
+      </p>
+
+    </section>
+
+
+    <!-- FEATURES -->
+
+    <section>
+
+      <h2 id="serverFeaturesTitle">
+        Server features
+      </h2>
+
+
+      <ul
+        class="features"
+        id="serverFeatures">
+
+        <!-- Loaded from site.json -->
+
+      </ul>
+
+    </section>
+
+
+    <!-- LATHSMP SYSTEMS -->
+
+    <section>
+
+      <h2 id="serverUniqueTitle">
+        LathSMP systems
+      </h2>
+
+
+      <div
+        class="feature-list"
+        id="serverUniqueFeatures">
+
+        <!-- Loaded from site.json -->
+
+      </div>
+
+    </section>
+
+
+    <!-- NO LAND CLAIMS -->
+
+    <section>
+
+      <h2 id="serverNoClaimsTitle">
+        No land claims
+      </h2>
+
+      <p id="serverNoClaimsText">
+        LathSMP does not use traditional land-claim protection.
+      </p>
+
+    </section>
+
+
+    <!-- JOIN -->
+
+    <section class="join">
+
+      <h2 id="serverJoinTitle">
+        Want to join?
+      </h2>
+
+
+      <p id="serverJoinDescription">
+        Add this server in Minecraft using:
+      </p>
+
+
+      <button
+        id="serverJoinIp"
+        class="large-ip"
+        type="button"
+        data-copy-ip>
+
+        lathsmp.me
+
+      </button>
+
+
+      <p
+        class="small-text"
+        id="serverJoinVersion">
+
+        Minecraft 26.3 · Java + Bedrock
+
+      </p>
+
+
+      <p
+        class="small-text copy-message"
+        id="serverJoinCopyMessage">
+
+        Click the address to copy it.
+
+      </p>
+
+    </section>
+
+  </div>
+
+</main>
+
+
+<footer>
+
+  <div class="container footer-content">
+
+    <span id="footerCopyright">
+      LathSMP © 2026
+    </span>
+
+    <span id="footerDomain">
+      lathsmp.me
+    </span>
+
+  </div>
+
+</footer>
+
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
